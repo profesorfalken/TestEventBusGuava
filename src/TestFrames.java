@@ -19,7 +19,7 @@ public class TestFrames {
             JFrameButton jFrameButton = new JFrameButton();
             jFrameButton.setVisible(true);
             
-            //Registered all jframes, although strictly in this example we needed to register only the button one
+            //Registered all jframes, although strictly in this example we needed to register only the one with the button
             appEventBus.register(jFrameLabel);
             appEventBus.register(jFrameButton);
         });
